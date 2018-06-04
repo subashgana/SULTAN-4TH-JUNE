@@ -97,7 +97,6 @@ public class DashBoardActivity extends AppBaseActivity implements NavigationView
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         init();
         populateNavigationViewMenu();

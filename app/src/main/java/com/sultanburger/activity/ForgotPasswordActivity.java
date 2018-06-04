@@ -23,7 +23,6 @@ public class ForgotPasswordActivity extends AppBaseActivity implements View.OnCl
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
-        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         init();
 
         if (BuildConfig.DEBUG) {

@@ -27,7 +27,6 @@ public class SignUpActivity extends AppBaseActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         init();
 
         if (BuildConfig.DEBUG) {

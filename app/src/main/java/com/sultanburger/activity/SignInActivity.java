@@ -27,7 +27,6 @@ public class SignInActivity extends AppBaseActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
-        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         init();
 
         if (BuildConfig.DEBUG) {
